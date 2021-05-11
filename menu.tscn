@@ -1,0 +1,28 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+anchor_right = 0.727
+anchor_bottom = 0.243
+margin_left = 4.00002
+margin_top = -4.0
+margin_right = -666.448
+margin_bottom = -134.8
+rect_scale = Vector2( 10, 10 )
+tab_size = 5
+text = "PyCity 3D"
+
+[node name="Button" type="Button" parent="."]
+anchor_right = 0.088
+anchor_bottom = 0.12
+margin_left = 11.0
+margin_top = 153.0
+margin_right = 524.888
+margin_bottom = 253.0
+text = "Play"
