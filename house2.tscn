@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=2]
+
+[sub_resource type="CubeMesh" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.690196, 0.580392, 0.580392, 1 )
+
+[sub_resource type="PrismMesh" id=3]
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_color = Color( 0.811765, 0.0705882, 0.0705882, 1 )
+
+[node name="Spatial" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.594026, 0, -2.80721 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.52022, 0 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 2 )
+
+[node name="MeshInstance2" type="MeshInstance" parent="."]
+transform = Transform( 1.31645, 0, 0, 0, 0.626408, 0, 0, 0, 1, 0.0100939, 3.13221, 0.0897467 )
+mesh = SubResource( 3 )
+material/0 = SubResource( 4 )
